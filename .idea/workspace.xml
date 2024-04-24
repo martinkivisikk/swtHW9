@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="27cb0451-9c2f-45c7-bfd4-51f30f2a6d05" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/TestSparkPluginSettings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ee/ut/cs/swt/MinimumBinaryHeap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ee/ut/cs/swt/MinimumBinaryHeap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ee/ut/cs/swt/MinimumBinaryHeapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ee/ut/cs/swt/MinimumBinaryHeapTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/report/ee.ut.cs.swt/MinimumBinaryHeap.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/report/ee.ut.cs.swt/MinimumBinaryHeap.java.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/report/ee.ut.cs.swt/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/report/ee.ut.cs.swt/index.html" afterDir="false" />
@@ -57,22 +55,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.MinimumBinaryHeapTest.removeNonExistingTest">
-    <configuration name="GTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MinimumBinaryHeap" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ee.ut.cs.swt.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ee.ut.cs.swt" />
-      <option name="MAIN_CLASS_NAME" value="ee.ut.cs.swt.GTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="PIT Runner.Unnamed">
     <configuration name="MinimumBinaryHeapTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MinimumBinaryHeap" />
       <extension name="coverage">
@@ -136,6 +119,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MinimumBinaryHeapTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MinimumBinaryHeap" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ee.ut.cs.swt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ee.ut.cs.swt" />
+      <option name="MAIN_CLASS_NAME" value="ee.ut.cs.swt.MinimumBinaryHeapTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Unnamed" type="PIT" factoryName="PIT Runner" REPORT_DIR="$PROJECT_DIR$/target/report" SOURCE_DIRS="$PROJECT_DIR$/src/main/java" TARGET_CLASSES="ee.ut.cs.swt.*" TARGET_TESTS="" otherParams="--outputFormats XML,HTML">
       <module name="MinimumBinaryHeap" />
       <method v="2">
@@ -143,20 +142,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.GTest" />
       <item itemvalue="JUnit.MinimumBinaryHeapTest.isNotEmptyTest" />
       <item itemvalue="JUnit.MinimumBinaryHeapTest.removeLastElementTest" />
       <item itemvalue="JUnit.MinimumBinaryHeapTest.removeNonExistingTest" />
+      <item itemvalue="JUnit.MinimumBinaryHeapTest.test" />
       <item itemvalue="JUnit.MinimumBinaryHeapTest" />
       <item itemvalue="PIT Runner.Unnamed" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MinimumBinaryHeapTest.test" />
         <item itemvalue="JUnit.MinimumBinaryHeapTest.removeNonExistingTest" />
         <item itemvalue="JUnit.MinimumBinaryHeapTest" />
         <item itemvalue="JUnit.MinimumBinaryHeapTest.isNotEmptyTest" />
         <item itemvalue="JUnit.MinimumBinaryHeapTest.removeLastElementTest" />
-        <item itemvalue="JUnit.GTest" />
       </list>
     </recent_temporary>
   </component>
@@ -169,7 +168,7 @@
       <option name="presentableId" value="Default" />
       <updated>1650962304701</updated>
       <workItem from="1713949547786" duration="1831000" />
-      <workItem from="1713953632557" duration="4907000" />
+      <workItem from="1713953632557" duration="6278000" />
     </task>
     <servers />
   </component>
@@ -186,7 +185,7 @@
     <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/MutationTesting_Junit5$MinimumBinaryHeapTest.ic" NAME="MinimumBinaryHeapTest Coverage Results" MODIFIED="1713958333094" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/MutationTesting_Junit5$MinimumBinaryHeapTest.ic" NAME="MinimumBinaryHeapTest Coverage Results" MODIFIED="1713958604825" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>ee.ut.cs.swt.*</FILTER>
     </SUITE>
   </component>

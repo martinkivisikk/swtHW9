@@ -102,4 +102,14 @@ public class MinimumBinaryHeapTest {
         boolean isRemoved = heap.remove(5000);
         assertEquals(false, isRemoved);
     }
+
+    @Test
+    public void swapMaintainSructureTest() {
+        heap.add(1);
+        heap.add(2);
+        heap.add(3);
+        heap.swap(0,1);
+        heap.bubbleDown(0);
+        assertEquals(1,heap.extractMin());
+    }
 }
