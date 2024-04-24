@@ -38,7 +38,7 @@ public class MinimumBinaryHeapTest {
 		heap.add(7);
 		heap.add(1);
 		heap.add(6);
-		int min = heap.exractMin();
+		int min = heap.extractMin();
 		assertEquals(1, min);
 	}
 	
@@ -79,6 +79,14 @@ public class MinimumBinaryHeapTest {
 	public void isEmptyTest() {
 		heap = new MinimumBinaryHeap();
 		assertEquals(true, heap.isEmpty());
+	}
+
+	@Test
+	public void removeLastElementTest() {
+		heap.minHeapify(result);
+		int lastElement = heap.getArray().get(heap.getArray().size()-1);
+		boolean isRemoved = heap.remove(lastElement);
+		assertEquals(true,isRemoved);
 	}
 }
 

@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27cb0451-9c2f-45c7-bfd4-51f30f2a6d05" name="Changes" comment="" />
+    <list default="true" id="27cb0451-9c2f-45c7-bfd4-51f30f2a6d05" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ee/ut/cs/swt/MinimumBinaryHeap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ee/ut/cs/swt/MinimumBinaryHeap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ee/ut/cs/swt/MinimumBinaryHeapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ee/ut/cs/swt/MinimumBinaryHeapTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/report/ee.ut.cs.swt/MinimumBinaryHeap.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/report/ee.ut.cs.swt/MinimumBinaryHeap.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/report/ee.ut.cs.swt/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/report/ee.ut.cs.swt/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/report/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/report/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/report/mutations.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/report/mutations.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +21,9 @@
   </component>
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
@@ -27,7 +39,9 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/Users/kivisikm/Töölaud/MutationTesting-Junit5",
     "node.js.detected.package.eslint": "true",
@@ -58,6 +72,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MinimumBinaryHeapTest.removeLastElementTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MinimumBinaryHeap" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ee.ut.cs.swt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ee.ut.cs.swt" />
+      <option name="MAIN_CLASS_NAME" value="ee.ut.cs.swt.MinimumBinaryHeapTest" />
+      <option name="METHOD_NAME" value="removeLastElementTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Unnamed" type="PIT" factoryName="PIT Runner" REPORT_DIR="$PROJECT_DIR$/target/report" SOURCE_DIRS="$PROJECT_DIR$/src/main/java" TARGET_CLASSES="ee.ut.cs.swt.*" TARGET_TESTS="" otherParams="--outputFormats XML,HTML">
       <module name="MinimumBinaryHeap" />
       <method v="2">
@@ -65,12 +95,14 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="JUnit.MinimumBinaryHeapTest.removeLastElementTest" />
       <item itemvalue="JUnit.MinimumBinaryHeapTest" />
       <item itemvalue="PIT Runner.Unnamed" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.MinimumBinaryHeapTest" />
+        <item itemvalue="JUnit.MinimumBinaryHeapTest.removeLastElementTest" />
       </list>
     </recent_temporary>
   </component>
@@ -83,6 +115,7 @@
       <option name="presentableId" value="Default" />
       <updated>1650962304701</updated>
       <workItem from="1713949547786" duration="1831000" />
+      <workItem from="1713953632557" duration="1537000" />
     </task>
     <servers />
   </component>
