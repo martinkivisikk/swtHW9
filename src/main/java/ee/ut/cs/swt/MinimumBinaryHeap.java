@@ -56,11 +56,11 @@ public class MinimumBinaryHeap {
 
     public void bubbleUp(int pos) {
         if (pos == 0) return;
-        int parent = (pos) / 2;
+        int parent = (pos % 2 == 0) ? (pos - 1) / 2 : pos / 2;
         while (heap.get(pos) < heap.get(parent)) {
             swap(pos, parent);
             pos = parent;
-            parent = (pos - 1) / 2;
+            parent = (pos % 2 == 0) ? (pos - 1) / 2 : pos / 2;
         }
     }
 
@@ -90,11 +90,9 @@ public class MinimumBinaryHeap {
      * @param element
      * @return True if element was removed and false otherwise.
      */
-    public boolean remove(int element) {
+    public boolean removeElement(int element) {
         int index = heap.indexOf(element);
-        if (index > heap.size() - 1 || index < 0) {
-            return false;
-        }
+        if (index < 0) {return false;} // index can't be larger than heap.size - 1
         heap.set(index, heap.get(heap.size() - 1));
         heap.remove(heap.size() - 1);
         bubbleDown(index);
@@ -115,5 +113,4 @@ public class MinimumBinaryHeap {
     public List<Integer> getArray() {
         return heap;
     }
-
 }

@@ -6,11 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="27cb0451-9c2f-45c7-bfd4-51f30f2a6d05" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ee/ut/cs/swt/MinimumBinaryHeap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ee/ut/cs/swt/MinimumBinaryHeap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ee/ut/cs/swt/MinimumBinaryHeapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ee/ut/cs/swt/MinimumBinaryHeapTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ee/ut/cs/swt/MinimumBinaryHeap.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ee/ut/cs/swt/MinimumBinaryHeap.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/report/ee.ut.cs.swt/MinimumBinaryHeap.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/report/ee.ut.cs.swt/MinimumBinaryHeap.java.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/report/ee.ut.cs.swt/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/report/ee.ut.cs.swt/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/report/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/report/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/report/mutations.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/report/mutations.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/report/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/report/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/ee/ut/cs/swt/MinimumBinaryHeapTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ee/ut/cs/swt/MinimumBinaryHeapTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,6 +27,22 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;HjalmarVaikuell&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/martinkivisikk/swtHW9.git&quot;,
+    &quot;accountId&quot;: &quot;39ed4839-3d72-410f-a6a9-ae0fd18b0b7e&quot;
+  }
+}</component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
@@ -38,11 +57,27 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.MinimumBinaryHeapTest.addMultipleElementsTest.executor": "Run",
+    "JUnit.MinimumBinaryHeapTest.addTest.executor": "Run",
+    "JUnit.MinimumBinaryHeapTest.bubbleDownTest.executor": "Run",
+    "JUnit.MinimumBinaryHeapTest.executor": "Run",
+    "JUnit.MinimumBinaryHeapTest.extractMinTest.executor": "Run",
+    "JUnit.MinimumBinaryHeapTest.minHeapifyTest.executor": "Run",
+    "JUnit.MinimumBinaryHeapTest.removeLastElementTest.executor": "Debug",
+    "JUnit.MinimumBinaryHeapTest.removeNonExistingTest.executor": "Debug",
+    "JUnit.MinimumBinaryHeapTest.removeTest.executor": "Run",
+    "JUnit.MinimumBinaryHeapTest.removeUnremovableTest.executor": "Run",
+    "JUnit.MinimumBinaryHeapTest.replaceElementOnRemove.executor": "Run",
+    "JUnit.MinimumBinaryHeapTest.swapMaintainSructureTest.executor": "Debug",
+    "JUnit.MinimumBinaryHeapTest.swapTest.executor": "Run",
+    "PIT Runner.Unnamed.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/kivisikm/Documents/IVsemester/TarkvaraTestimine/hw9/SWT2022-MutationTesting-v1.2/MutationTesting-Junit5/src/test/java/ee/ut/cs/swt",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Hjalmar Vaiküll/OneDrive - Tartu Ülikool/Dokumendid/Kool/IV semester/Tarkvara testimine/Lab9/swtHW9",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -55,7 +90,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="PIT Runner.Unnamed">
+  <component name="RunManager" selected="JUnit.MinimumBinaryHeapTest.removeTest">
     <configuration name="MinimumBinaryHeapTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MinimumBinaryHeap" />
       <extension name="coverage">
@@ -71,7 +106,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinimumBinaryHeapTest.isNotEmptyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MinimumBinaryHeapTest.addMultipleElementsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MinimumBinaryHeap" />
       <extension name="coverage">
         <pattern>
@@ -81,13 +116,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="ee.ut.cs.swt" />
       <option name="MAIN_CLASS_NAME" value="ee.ut.cs.swt.MinimumBinaryHeapTest" />
-      <option name="METHOD_NAME" value="isNotEmptyTest" />
+      <option name="METHOD_NAME" value="addMultipleElementsTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinimumBinaryHeapTest.removeLastElementTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MinimumBinaryHeapTest.addTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MinimumBinaryHeap" />
       <extension name="coverage">
         <pattern>
@@ -97,13 +132,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="ee.ut.cs.swt" />
       <option name="MAIN_CLASS_NAME" value="ee.ut.cs.swt.MinimumBinaryHeapTest" />
-      <option name="METHOD_NAME" value="removeLastElementTest" />
+      <option name="METHOD_NAME" value="addTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinimumBinaryHeapTest.removeNonExistingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MinimumBinaryHeapTest.removeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MinimumBinaryHeap" />
       <extension name="coverage">
         <pattern>
@@ -113,13 +148,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="ee.ut.cs.swt" />
       <option name="MAIN_CLASS_NAME" value="ee.ut.cs.swt.MinimumBinaryHeapTest" />
-      <option name="METHOD_NAME" value="removeNonExistingTest" />
+      <option name="METHOD_NAME" value="removeTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinimumBinaryHeapTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MinimumBinaryHeapTest.removeUnremovableTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MinimumBinaryHeap" />
       <extension name="coverage">
         <pattern>
@@ -129,7 +164,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="ee.ut.cs.swt" />
       <option name="MAIN_CLASS_NAME" value="ee.ut.cs.swt.MinimumBinaryHeapTest" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="METHOD_NAME" value="removeUnremovableTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -142,22 +177,30 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.MinimumBinaryHeapTest.isNotEmptyTest" />
-      <item itemvalue="JUnit.MinimumBinaryHeapTest.removeLastElementTest" />
-      <item itemvalue="JUnit.MinimumBinaryHeapTest.removeNonExistingTest" />
-      <item itemvalue="JUnit.MinimumBinaryHeapTest.test" />
+      <item itemvalue="JUnit.MinimumBinaryHeapTest.addMultipleElementsTest" />
+      <item itemvalue="JUnit.MinimumBinaryHeapTest.addTest" />
+      <item itemvalue="JUnit.MinimumBinaryHeapTest.removeTest" />
+      <item itemvalue="JUnit.MinimumBinaryHeapTest.removeUnremovableTest" />
       <item itemvalue="JUnit.MinimumBinaryHeapTest" />
       <item itemvalue="PIT Runner.Unnamed" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MinimumBinaryHeapTest.test" />
-        <item itemvalue="JUnit.MinimumBinaryHeapTest.removeNonExistingTest" />
+        <item itemvalue="JUnit.MinimumBinaryHeapTest.removeTest" />
+        <item itemvalue="JUnit.MinimumBinaryHeapTest.removeUnremovableTest" />
         <item itemvalue="JUnit.MinimumBinaryHeapTest" />
-        <item itemvalue="JUnit.MinimumBinaryHeapTest.isNotEmptyTest" />
-        <item itemvalue="JUnit.MinimumBinaryHeapTest.removeLastElementTest" />
+        <item itemvalue="JUnit.MinimumBinaryHeapTest.addMultipleElementsTest" />
+        <item itemvalue="JUnit.MinimumBinaryHeapTest.addTest" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -169,6 +212,9 @@
       <updated>1650962304701</updated>
       <workItem from="1713949547786" duration="1831000" />
       <workItem from="1713953632557" duration="6278000" />
+      <workItem from="1714120881494" duration="7056000" />
+      <workItem from="1714204990369" duration="7162000" />
+      <workItem from="1714299471297" duration="6990000" />
     </task>
     <servers />
   </component>
@@ -179,6 +225,17 @@
     <option featureType="com.intellij.configurationType" implementationName="PIT" />
     <option featureType="dependencySupport" implementationName="executable:docker" />
     <option featureType="dependencySupport" implementationName="executable:kubectl" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
